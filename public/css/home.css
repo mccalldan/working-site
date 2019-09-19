@@ -135,12 +135,26 @@ a {
 /* Mobile Styling */
 
 @media screen and (max-width: 768px) {
-    .home {
-      color: white;
+
+    h1 {
+      
     }
+
+    .home {
+
+    }
+
+    .portfolio{
+
+    }
+
+    .contact{
+
+    }
+
     .footer {
-      position: relative;
-      height: 125px;
+      position: fixed;
+      height: 110px;
     }
     #contentainer {
       margin-bottom: 0px;
