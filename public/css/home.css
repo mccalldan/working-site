@@ -1,6 +1,18 @@
+body {
+  background-image: url("/images/abstract-tech.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+li {
+  color: #DBE9EE !important;
+  font-size: 2rem;
+  
+}
+
 .container-fluid {
     padding-top: 70px;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
 }
 .navbar {
     padding-top: 15px;
@@ -10,10 +22,26 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    background-color: #433A3F;
+    background-color: #4A6FA5;
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
+}
+
+
+
+.navbar-brand {
+  font-size: 4rem;
+  color: #DBE9EE !important;
+}
+
+#navtainer {
+  background-color: #4A6FA5;
+}
+
+
+#contentainer {
+    margin-bottom: 115px;
 }
 
 /* Home Page Styling */
@@ -65,7 +93,7 @@
 /* Footer Styling */
 
 .footer-padding {
-	padding-bottom: 60px;
+	/* padding-bottom: 60px; */
 }
 
 .footer {
@@ -73,8 +101,8 @@
 	text-align: center;
 	bottom: 0;
 	width: 100%;
-	height: 60px;
-	background-color: #5B4E77;
+	height: 75px;
+	background-color: #4F6D7A;
 }
 
 .footer p {
@@ -85,7 +113,7 @@
 }
 
 .fab {
-  color: #55D6BE;
+  color: #DBE9EE;
   margin-top: 20px;
   margin-right: 20px;
 }
