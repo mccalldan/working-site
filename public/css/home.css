@@ -1,13 +1,13 @@
 body {
-  background-image: url("/images/abstract-tech.jpg");
+  /* background-image: url("/images/fall-forest.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
 }
 
-li {
+a {
   color: #DBE9EE !important;
-  font-size: 2rem;
-  
+  font-size: 1.5rem;
+
 }
 
 .container-fluid {
@@ -22,7 +22,7 @@ li {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    background-color: #4A6FA5;
+    background-color: #312F2F;
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -35,8 +35,12 @@ li {
   color: #DBE9EE !important;
 }
 
+#home {
+  color: white;
+}
+
 #navtainer {
-  background-color: #4A6FA5;
+  background-color: #312F2F;
 }
 
 
@@ -56,7 +60,16 @@ li {
   height: 400px;
 }
 
+#headshot {
+  margin-top: 50px;
+}
 
+#dan {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #4F6D7A;
+  border-width: 10px;
+}
 /* Portfolio Page Styling */
 
 .portfolio {
@@ -97,12 +110,13 @@ li {
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
 	height: 75px;
 	background-color: #4F6D7A;
+
 }
 
 .footer p {
@@ -116,4 +130,19 @@ li {
   color: #DBE9EE;
   margin-top: 20px;
   margin-right: 20px;
+}
+
+/* Mobile Styling */
+
+@media screen and (max-width: 768px) {
+    .home {
+      color: white;
+    }
+    .footer {
+      position: relative;
+      height: 125px;
+    }
+    #contentainer {
+      margin-bottom: 0px;
+    }
 }
