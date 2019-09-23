@@ -96,10 +96,6 @@ a {
   /* margin-bottom: 30px;  */
 }
 
-#lom-icon {
-  color: #390040;
-}
-
 #howler-icon {
   color: #FFA630;
 }
@@ -111,11 +107,6 @@ a {
 #newsletter-icon {
   color : #343434;
 }
-
-#friend-icon {
-  color: #91171F;
-}
-
 /* Contact Page Styling */
 
 .contact {
@@ -158,6 +149,7 @@ a {
   margin-top: 10px;
   margin-right: 20px;
 }
+
 
 /* Mobile Styling */
 
