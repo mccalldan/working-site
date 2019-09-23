@@ -38,6 +38,7 @@ a {
   font-size: 4rem;
   color: #DBE9EE !important;
   width: 320px;
+  border-bottom: 1px solid #DBE9EE;
 }
 
 #home {
